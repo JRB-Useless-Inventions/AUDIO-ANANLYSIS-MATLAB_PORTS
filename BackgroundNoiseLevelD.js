@@ -99,7 +99,6 @@ navigator.mediaDevices.getUserMedia(constraints)
 	        var minPow_dB = 10*Math.log10(Math.min.apply(null,ActSigPow));
 	        var output = minPow_dB - maxPeak_dB;
 
-	        //console.log(output);
 	        console.log(output);
 		}
   	}
